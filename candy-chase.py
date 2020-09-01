@@ -171,7 +171,7 @@ class Game :
         end = datetime.datetime.today() + delta
         return end
 
-    @staticmethod # !!! Mettre ds UML
+    @staticmethod
     def pause_time(begin) :
         dummy_waiter = input('Jeu en pause. Appuyez sur "Enter" pour continuer ')
         cheat = datetime.timedelta(seconds=0)
